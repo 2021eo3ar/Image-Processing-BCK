@@ -150,9 +150,8 @@ GET /api/jobs/status?jobid=60f7e7b2e4b0a4bcd0211d4b
 
 Below is a visual representation of the job processing workflow:
 
-![Workflow](src\asset\workflow.png)
+![Workflow](asset\workflow.png)
 
-*(Replace `workflow-diagram.png` with the actual image path in your project.)*
 
 ---
 
