@@ -4,9 +4,10 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const redisConnection = new Redis({
-  host: process.env.REDIS_HOST || 'localhost',
-  port: parseInt(process.env.REDIS_PORT || '6379'),
+const redisConnection = new Redis(
+  // host: process.env.REDIS_HOST || 'localhost',
+  // port: parseInt(process.env.REDIS_PORT || '6379'), for development usage
+  process.env.REDIS_URL,{
   maxRetriesPerRequest: null,
 });
 

@@ -3,8 +3,12 @@ import redisClient from "../config/redis.js";
 import axios from "axios";
 import sharp from "sharp";
 import Job from "../models/Job.js";
+import dotenv from "dotenv"
+
+dotenv.config();
 
 const jobQueue = new Queue('jobQueue', { connection: redisClient });
+
 
 const worker = new Worker('jobQueue', async (job) => {
   try {
