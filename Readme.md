@@ -41,8 +41,8 @@ This project is a job processing system using **BullMQ**, **Redis**, and **Mongo
 ### 2️⃣ Clone the Repository
 
 ```sh
- git clone https://github.com/your-username/job-processor.git
- cd job-processor
+ git clone https://github.com/2021eo3ar/Image-Processing-BCK.git
+ cd Image-Processing-BCK
 ```
 
 ### 3️⃣ Install Dependencies
